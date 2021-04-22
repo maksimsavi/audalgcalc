@@ -3,21 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+      <h1 className="mainTitle">Audius Calculator</h1>
       </header>
+      <main>
+        <section className="stats">
+          <div className="statsNode">
+            track info
+          </div>
+          <div className="statsNode">
+            link, stats
+          </div>
+          <div className="statsNode">
+            trending
+          </div>
+
+        </section>
+      </main>
     </div>
   );
 }
