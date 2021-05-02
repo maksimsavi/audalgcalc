@@ -17,6 +17,9 @@ input {
 .bmargin50 {
 margin-bottom: 50px;
 }
+.tmargin100 {
+  margin-top: 100px;
+}
 .textaligncenter {
   text-align: center;
 }
