@@ -1,0 +1,20 @@
+if the submit button was a button and not an input I wouldn't have to even mess with default event. But, might not have the same built-in
+functionality a form has maybe?
+
+I'll have to create a key to avoid spamming calls. see how people handle these things
+
+operation order. when I call Fetch it sends the link, and receives a json.
+then it takes the json, shoves it into state, and renders the table. on link submit it can reset the table too.
+
+Display data:
+How to display data? get it from server. put it into state?
+Pass it to Table as props? 
+when/ where would i need it?
+should I clog the global state? or can i just give it to Table?
+I dont need it anywhere else. I only need to display the data in the Table. Props make sense. 
+I could pass it to the table, and refill the table 
+
+if a component receives new props it will force render. 
+if i pass new track props to Table it will rerender
+in that case I only need to take new data from server, and pass it as props to Table.
+In which case it will rerender. animation - later. since elements will show up as new it'll probably re-trigger animations by itself
